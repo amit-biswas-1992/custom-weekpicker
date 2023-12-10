@@ -1,0 +1,13 @@
+
+<label for="weekpicker">Choose a week:</label>
+<input type="text" id="weekpicker" name="week">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="weekPicker.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+<script>
+    
+$(document).ready(function(){
+    convertToWeekPicker($("#weekpicker"))
+});
+</script>
